@@ -14,7 +14,7 @@ SystemState current_state = STATE_STATIONARY;
 
 bool move_flag = false;
 unsigned long last_movement = 0;
-const unsigned long PARKING_TIMEOUT = 10000;
+const unsigned long PARKING_TIMEOUT = 120000;
 
 void onMotionDetected() {
   move_flag = true;
